@@ -15,12 +15,14 @@
             <TextView
                 android:id="@+id/kodebarang"
                 android:hint="Kode Barang"
+                android:layout_marginLeft="10dp"
                 android:textColor="@color/white"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
             <TextView
                 android:id="@+id/namabarang"
                 android:hint="Nama Barang"
+                android:layout_marginLeft="10dp"
                 android:textColor="@color/white"
                 android:layout_below="@id/kodebarang"
                 android:layout_width="match_parent"
@@ -28,6 +30,7 @@
             <TextView
                 android:id="@+id/satuanbarang"
                 android:hint="Satuan Barang"
+                android:layout_marginLeft="10dp"
                 android:textColor="@color/white"
                 android:layout_below="@id/namabarang"
                 android:layout_width="match_parent"
@@ -35,10 +38,21 @@
             <TextView
                 android:id="@+id/hargabarang"
                 android:hint="Harga Barang"
+                android:layout_marginLeft="10dp"
                 android:textColor="@color/white"
                 android:layout_below="@id/satuanbarang"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:id="@+id/tombolhapus"
+                android:src="@drawable/baseline_delete_forever_24"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
 
